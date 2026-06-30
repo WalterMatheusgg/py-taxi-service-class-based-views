@@ -17,13 +17,11 @@ urlpatterns = [
         ManufacturerListView.as_view(),
         name="manufacturer-list",
     ),
-
     path(
         "cars/",
         CarListView.as_view(),
         name="car-list",
     ),
-
     path(
         "drivers/",
         DriverListView.as_view(),
